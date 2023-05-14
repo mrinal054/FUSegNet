@@ -27,7 +27,7 @@ HARD_LINE = True
 
 ep = 1e-6
 
-with pd.ExcelWriter(os.path.join(dir_pred, 'result_boxplot_' + model_name + '.xlsx')) as writer:
+with pd.ExcelWriter(os.path.join(dir_pred, 'result_boxplot' + '.xlsx')) as writer:
     
     for key, names in categories.items():
         
