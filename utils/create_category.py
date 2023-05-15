@@ -17,8 +17,8 @@ groundtruth area in an image.
     <0.3	    35
     <0.4	    29
     <0.6	    38
-    <10	        20
-    ≥10	        07
+    <10	            20
+    ≥10	            07
 	
 """
 import os
