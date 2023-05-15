@@ -11,7 +11,7 @@ FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/
 ## File description
 
 * utils <br>
-	|--`category.py`: Lists AZH Chronic wound test imgaes into 10 categories. Categories are created based on %GT area in images. Categorized test image names 	   are stored in a json file called `categorized_oldDfu.json` <br>
+	|--`category.py`: Lists AZH Chronic wound test imgaes into 10 categories. Categories are created based on %GT area in images. Categorized test image names 	   are stored in a json file called [categorized_oldDfu.json](https://github.com/mrinal054/FUSegNet/blob/main/categorized_oldDfu.json) <br>
 	|--`eval.py`: Performs data-based evaluation.<br>
 	|--`eval_categorically.py`: Performs data-based evaluation for each category.<br>
 	|--`eval_boxplot.py`: Performs image-based evaluation for each category that is required for boxplot. The final output is 
