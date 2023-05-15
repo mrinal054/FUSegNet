@@ -12,6 +12,8 @@ FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/
 
 ## Directory setup
 
+## Parameters setup
+
 ## How to use
 
 ## Results
