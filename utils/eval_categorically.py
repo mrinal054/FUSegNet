@@ -21,7 +21,7 @@ dir_label = r'.\azh_wound_care_center_dataset_patches\test\labels' # label direc
 dir_pred = r'.\predictions\OldDFU' # prediction directory
 
 # Read json
-with open("categorized_oldDfu.json", "r") as F:
+with open("categorized_oldDfu.json", "r") as F: # categorized_oldDfu.json is available in this repo
     categories = json.load(F)
 
 names = [name for name in os.listdir(dir_label) if name.endswith('.png')]
