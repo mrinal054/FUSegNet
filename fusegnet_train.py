@@ -194,7 +194,7 @@ SAVE_WEIGHTS_ONLY = True
 TO_CATEGORICAL = False
 SAVE_BEST_MODEL = True
 SAVE_LAST_MODEL = False
-PERIOD = 20 # periodically save checkpoints
+PERIOD = None # periodically save checkpoints
 RAW_PREDICTION = False # if true, then stores raw predictions (i.e. before applying threshold)
 PATIENCE = 30 # for early stopping
 EARLY_STOP = False
@@ -371,7 +371,7 @@ for epoch in range(EPOCHS):
       break 
 
     # Periodic checkpoint save
-    if not SAVE_BEST_MODEL:
+    if not SAVE_BEST_MODEL and PERIOD is not None:
       if (epoch+1) % PERIOD == 0:
         save(os.path.join(checkpoint_loc, f"cp-{epoch+1:04d}.pth"), 
               epoch+1, model.state_dict(), optimizer.state_dict())
