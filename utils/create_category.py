@@ -9,7 +9,7 @@ groundtruth area in an image.
 
 % gt-area	No. of images
 ---------- ---------------
-      0	        17
+      0	            17
     <0.6	    36
     <0.1	    35
     <0.15	    37
