@@ -8,7 +8,7 @@ FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/
 * [FUSegNet](https://drive.google.com/drive/folders/14HFRiNdeN10NPx7S6Lts4ymidNpjibI2?usp=sharing) trained on Chronic Wound dataset
 * [xFUSegNet](https://drive.google.com/drive/folders/18696pUMWWdIOAgOLcXR_hut0ukKPXuV9?usp=sharing) trained on MICCAI FUSeg Challenge 2021 dataset
 
-## File description
+## Code description
 
 * utils <br>
 	|--`category.py`: Lists AZH Chronic wound test imgaes into 10 categories. Categories are created based on %GT area in images. Categorized test image names 	   are stored in a json file called [categorized_oldDfu.json](https://github.com/mrinal054/FUSegNet/blob/main/categorized_oldDfu.json) <br>
