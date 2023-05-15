@@ -197,7 +197,7 @@ SAVE_LAST_MODEL = False
 PERIOD = None # periodically save checkpoints
 RAW_PREDICTION = False # if true, then stores raw predictions (i.e. before applying threshold)
 PATIENCE = 30 # for early stopping
-EARLY_STOP = False
+EARLY_STOP = True
 
 # Create a unique model name
 model_name = BASE_MODEL + '_' + ENCODER + '_' + datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
