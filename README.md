@@ -33,13 +33,13 @@ FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/
 ## Parameters setup
 
 ```python
-BASE_MODEL = 'FuSegNet'
+BASE_MODEL = 'FuSegNet' # give a name for the model
 ENCODER = 'efficientnet-b7'
 ENCODER_WEIGHTS = 'imagenet'
 BATCH_SIZE = 2 
 IMAGE_SIZE = 224 # height and width
 n_classes = 1 
-ACTIVATION = 'sigmoid' # could be None for logits or 'softmax2d' for multiclass segmentation
+ACTIVATION = 'sigmoid' # output activation function
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 LR = 0.0001 # learning rate
 EPOCHS = 200
@@ -47,11 +47,11 @@ WEIGHT_DECAY = 1e-5
 SAVE_WEIGHTS_ONLY = True
 TO_CATEGORICAL = False
 SAVE_BEST_MODEL = True
-SAVE_LAST_MODEL = True
-PERIOD = 20 # periodically save checkpoints
+SAVE_LAST_MODEL = False
+PERIOD = None # periodically save checkpoints
 RAW_PREDICTION = False # if true, then stores raw predictions (i.e. before applying threshold)
 PATIENCE = 30 # for early stopping
-EARLY_STOP = False
+EARLY_STOP = True
 ```
 
 ## How to use
