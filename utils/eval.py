@@ -23,7 +23,7 @@ stp, stn, sfp, sfn = 0, 0, 0, 0
 
 ep = 1e-6
 
-save_dir_pred = r'F:\Research\Foot_ulcer\predictions'
+save_dir_pred = r'.\predictions'
 
 # Create dataframe to store records
 df = pd.DataFrame(index=[], columns = [
