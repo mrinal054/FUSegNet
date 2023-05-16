@@ -31,7 +31,7 @@ FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/
 ## Directory setup
 
 ## Parameters setup
-
+`fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, and `xfusegnet-train.py` have a section called `Parameters` where the user can set the model parameters. The following are the model parameters used to train FUSegNet and xFUSegNet.  
 ```python
 BASE_MODEL = 'FuSegNet' # give a name for the model
 ENCODER = 'efficientnet-b7'
