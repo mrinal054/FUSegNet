@@ -33,13 +33,13 @@ FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/
 ## Parameters setup
 `fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, and `xfusegnet-train.py` have a section called `Parameters` where the user can set the model parameters. The following are the model parameters used to train FUSegNet and xFUSegNet.  
 ```python
-BASE_MODEL = 'FuSegNet' # give a name for the model
+BASE_MODEL = 'FuSegNet' # give any name for the model
 ENCODER = 'efficientnet-b7'
 ENCODER_WEIGHTS = 'imagenet'
 BATCH_SIZE = 2 
 IMAGE_SIZE = 224 # height and width
 n_classes = 1 
-ACTIVATION = 'sigmoid' # output activation function
+ACTIVATION = 'sigmoid' # output activation. sigmoid for binary and softmax for multi-label segmentation
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 LR = 0.0001 # learning rate
 EPOCHS = 200
