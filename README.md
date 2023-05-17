@@ -47,7 +47,7 @@ Our saved (trained) models can be downloaded from the following links-
 
 
 <p align="center">
-  <img src="resources/P-scSE.jpg" width="250" height="250">
+  <img src="resources/P-scSE.jpg" width="500" height="250">
 </p>
 	
 
