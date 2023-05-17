@@ -32,6 +32,7 @@ Our saved (trained) models can be downloaded from the following links-
 
 ## Network architecture
 <p style="text-align: center;">A piece of centered text</p>
+
 **Proposed FUSegNet overview:**
 ![fusegnet](resources/Network.jpg)
 <br> <br> <br> <br>
