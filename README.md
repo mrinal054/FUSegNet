@@ -31,7 +31,8 @@ Our saved (trained) models can be downloaded from the following links-
 * `FUSegNet_feature_visualization.ipynb`: Demonstrates intermediate features.
 
 ## Network architecture
-![Network overview](resources/Network.tif)
+![Sc3](resources/Network.tif)
+
 ## Directory setup
 The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically. 
 ```
