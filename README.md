@@ -46,15 +46,11 @@ Our saved (trained) models can be downloaded from the following links-
 </p>
 
 
-<p align="center">
-  <img src="resources/P-scSE.jpg" width="700">
-</p>
+<img align="center" width="700" src="resources/P-scSE.jpg">
 	
 <br>
 
-<header>  <h2>Directory setup</h2> </header>
- <h1 style="color: white; background-color: #af9cd9; padding: 2em 0; text-align: center">![](https://raw.githubusercontent.com/belltown/violetbug/master/doc/icon.png) VioletBug — Roku Debugger Graphical Interface</h1>
-
+## Directory setup
 
 The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically.
 ```
