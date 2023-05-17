@@ -55,7 +55,7 @@ Our saved (trained) models can be downloaded from the following links-
 <header>  <h2>Directory setup</h2> </header>
 
 
-The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically. 
+**The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically. **
 ```
 .
 |-- fusegnet_all.py
