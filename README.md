@@ -31,8 +31,13 @@ Our saved (trained) models can be downloaded from the following links-
 * `FUSegNet_feature_visualization.ipynb`: Demonstrates intermediate features.
 
 ## Network architecture
-**FUSegNet overview:**
+**Proposed FUSegNet overview:**
 ![fusegnet](resources/Network.jpg)
+
+
+**Proposed parallel scSE (P-scSE) module:**
+![pscse](resources/P-scSE.jpg)
+
 
 ## Directory setup
 The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically. 
