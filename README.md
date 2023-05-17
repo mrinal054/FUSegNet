@@ -35,7 +35,9 @@ Our saved (trained) models can be downloaded from the following links-
 <b>Proposed FUSegNet overview<b>
 </p>
 
-![fusegnet](resources/Network.jpg)
+<p align="center">
+  <img src="resources/Network.jpg" width="1000">
+</p>
 
 <br> <br>
 
