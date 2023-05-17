@@ -28,6 +28,7 @@ Our saved (trained) models can be downloaded from the following links-
 * `xfusegnet_test.py`: It is to perform inference using the xFUSegNet model.
 * `FUSegNet_feature_visualization.ipynb`: Demonstrates intermediate features.
 
+## Network architecture
 
 ## Directory setup
 
