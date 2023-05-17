@@ -4,7 +4,7 @@
 
 FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/qubvel/segmentation_models.pytorch) implementation.  
 
-**Preprint [link](https://arxiv.org/abs/2305.02961).
+**Preprint** [link](https://arxiv.org/abs/2305.02961).
 
 ## Saved models
 Our saved (trained) models can be downloaded from the following links-
