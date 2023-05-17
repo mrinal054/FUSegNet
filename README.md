@@ -43,11 +43,9 @@ Our saved (trained) models can be downloaded from the following links-
 <b>Proposed parallel scSE (P-scSE) module<b>
 </p>
 
-![pscse](resources/P-scSE.jpg =250x250)
-
 
 <p align="center">
-  <img src="resources/P-scSE.jpg" width="500" height="250">
+  <img src="resources/P-scSE.jpg" width="500">
 </p>
 	
 
