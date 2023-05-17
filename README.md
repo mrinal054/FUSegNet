@@ -1,3 +1,10 @@
+Seeking for a 50% TA in the upcoming Fall semester
+Dear Professor,
+I hope you are doing well.
+I have completed all my coursework and the qualifying exam. I have also completed my Proposal Hearing this semester and applied for the dissertator status starting in the Fall semester. 
+Under the circumstances, will you please consider me for a 50% TA in the Fall semester?
+Thank you. Have a nice day!
+ 
 # FUSegNet
 
 ## Description will be added soon
@@ -31,27 +38,12 @@ Our saved (trained) models can be downloaded from the following links-
 * `FUSegNet_feature_visualization.ipynb`: Demonstrates intermediate features.
 
 ## Network architecture
-<p align="center">
-<b>Proposed FUSegNet overview<b>
-</p>
+**Proposed FUSegNet overview**
+<p align="center"> <img src="resources/Network.jpg" width="900"> </p> <br> 
 
-<p align="center">
-  <img src="resources/Network.jpg" width="900">
-</p>
+**Proposed Parallel scSE (P-scSE) module**
+<p align="center"> <img src="resources/P-scSE.jpg" width="700"> </p> <br>
 
-<br> 
-
-<p align="center">
-<b>Proposed Parallel scSE (P-scSE) module<b>
-</p>
-
-
-<p align="center">
-  <img src="resources/P-scSE.jpg" width="700">
-</p>
-	
-<br>
----
 ## Directory setup
 
 The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically.
