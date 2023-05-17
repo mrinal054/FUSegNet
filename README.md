@@ -56,7 +56,7 @@ EARLY_STOP = True # if True, enables early stopping
 ```
 
 ## How to use
-Mode: end-to-end
+**Mode: end-to-end**
 * In this mode, training and inference codes are embedded in a single .py file. *
 * `fusegnet-all.py` and `xfusegnet-all.py` files are written in this mode. 
 * Once the model parameters are set in the `Parameter` section, the user can run (train, validation, and test)  using the following commands - `python fusegnet-all.py` or `python xfusegnet-all.py`.
