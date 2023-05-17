@@ -108,6 +108,9 @@ EARLY_STOP = True # if True, enables early stopping
 * `fusegnet_train.py` and `xfusegnet_train.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.).
 * To test with our saved models, put the saved models in the `checkpoints` directory and then perform either one of the above two steps.
 
+**Mode: feature visualization**
+* In this mode, intermediate feature maps are visualized. 
+* `FUSegNet_feature_visualization.ipynb` demonstrates the output feature maps of the parallel scSE (P-scSE) modules and each decoder stage.
 
 ## Results
 
