@@ -121,7 +121,7 @@ EARLY_STOP = True # if True, enables early stopping
 <p align="center"> <img src="resources/chronic_wound.jpg" width="600"> </p> <br> 
 
 * **Top five performers of the** [MICCAI 2021 FUSeg Challenge](https://fusc.grand-challenge.org/leaderboard/)
-<p align="center"> <img src="resources/fuseg_challenge.jpg" width="600"> </p> <br> 
+<p align="center"> <img src="resources/fuseg_challenge.jpg" width="500"> </p> <br> 
 
 
 ## Reference
