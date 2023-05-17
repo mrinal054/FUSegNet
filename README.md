@@ -1,6 +1,6 @@
 # FUSegNet
 
-## Description will be added soon
+## Summary
 
 FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/qubvel/segmentation_models.pytorch) implementation.  
 
