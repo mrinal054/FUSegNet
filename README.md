@@ -32,27 +32,27 @@ Saved models can be downloaded from the following links-
 ## Directory setup
 
 ## Parameters setup
-`fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, and `xfusegnet-train.py` have a section called `Parameters` where the user can set the model parameters. The following are the model parameters used to train FUSegNet and xFUSegNet.  
+`fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, and `xfusegnet-train.py` have a section called `Parameters` where the user can set the model parameters. The following are the model parameters used to train `FUSegNet` and `xFUSegNet`.  
 ```python
 BASE_MODEL = 'FuSegNet' # give any name for the model
-ENCODER = 'efficientnet-b7'
-ENCODER_WEIGHTS = 'imagenet'
-BATCH_SIZE = 2 
+ENCODER = 'efficientnet-b7' # encoder model 
+ENCODER_WEIGHTS = 'imagenet' # encoder weights
+BATCH_SIZE = 2 # no. of batches
 IMAGE_SIZE = 224 # height and width
-n_classes = 1 
+n_classes = 1 # no. of classes excluding background
 ACTIVATION = 'sigmoid' # output activation. sigmoid for binary and softmax for multi-class segmentation
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 LR = 0.0001 # learning rate
-EPOCHS = 200
-WEIGHT_DECAY = 1e-5
-SAVE_WEIGHTS_ONLY = True
-TO_CATEGORICAL = False
-SAVE_BEST_MODEL = True
-SAVE_LAST_MODEL = False
+EPOCHS = 200 # no. of epochs
+WEIGHT_DECAY = 1e-5 # for L2 penalty
+SAVE_WEIGHTS_ONLY = True # if True, saves weights only
+TO_CATEGORICAL = False # if True, converts to onehot
+SAVE_BEST_MODEL = True # if True, saves the best model only
+SAVE_LAST_MODEL = False # if True, saves the model after completing the training
 PERIOD = None # periodically save checkpoints
 RAW_PREDICTION = False # if true, then stores raw predictions (i.e. before applying threshold)
-PATIENCE = 30 # for early stopping
-EARLY_STOP = True
+PATIENCE = 30 # no. of epoches waited before early stopping
+EARLY_STOP = True # if True, enables early stopping
 ```
 
 ## How to use
