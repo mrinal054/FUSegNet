@@ -36,7 +36,7 @@ Our saved (trained) models can be downloaded from the following links-
 </p>
 
 <p align="center">
-  <img src="resources/Network.jpg" width="800">
+  <img src="resources/Network.jpg" width="900">
 </p>
 
 <br> 
