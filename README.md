@@ -1,4 +1,4 @@
-# FUSegNet
+# FUSegNet: A Deep Convolutional Neural Network for Foot Ulcer Segmentation
 
 ## Summary
 
