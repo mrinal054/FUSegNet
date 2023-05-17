@@ -4,6 +4,8 @@
 
 FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/qubvel/segmentation_models.pytorch) implementation.  
 
+FUSegNet is a novel model for foot ulcer segmentation in diabetes patients. The model introduces the parallel scSE (P-scSE) module, combining additive and max-out scSE, fused in the middle of each decoder stage. FUSegNet achieves a data-based dice score of 92.70% on a chronic wound dataset, outperforming other state-of-the-art models. In the MICCAI 2021 FUSeg Challenge, the submitted x-FUSegNet model achieves a top score of 89.23%, **leading the leaderboard**.
+
 **Preprint** [link](https://arxiv.org/abs/2305.02961).
 
 ## Saved models
