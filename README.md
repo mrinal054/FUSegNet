@@ -68,8 +68,6 @@ The directory structure is shown below. Note that if checkpoints, plots, and pre
 	|-- (model predictions will be store here)
 ```
 
-
-
 ## Parameters setup
 `fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, and `xfusegnet-train.py` have a section called `Parameters` where the user can set the model parameters. The following are the model parameters used to train `FUSegNet` and `xFUSegNet`.  
 ```python
@@ -119,5 +117,11 @@ EARLY_STOP = True # if True, enables early stopping
 * `FUSegNet_feature_visualization.ipynb` demonstrates the output feature maps of the parallel scSE (P-scSE) modules and each decoder stage.
 
 ## Results
+**Segmentation results on the Chronic Wound dataset**
+<p align="center"> <img src="resources/chronic_wound.jpg" width="400"> </p> <br> 
+
+**Top five performers of the** [MICCAI 2021 FUSeg Challenge](https://fusc.grand-challenge.org/leaderboard/)
+<p align="center"> <img src="resources/fuseg_challenge.jpg" width="400"> </p> <br> 
+
 
 ## Reference
