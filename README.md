@@ -4,6 +4,8 @@
 
 FUSegNet and x-FUSegNet are implemented on top of [qubvel's](https://github.com/qubvel/segmentation_models.pytorch) implementation.  
 
+** Preprint [link](https://arxiv.org/abs/2305.02961).
+
 ## Saved models
 Our saved (trained) models can be downloaded from the following links-
 * [FUSegNet](https://drive.google.com/drive/folders/14HFRiNdeN10NPx7S6Lts4ymidNpjibI2?usp=sharing) trained on Chronic Wound dataset
