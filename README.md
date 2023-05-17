@@ -67,6 +67,7 @@ EARLY_STOP = True # if True, enables early stopping
 * `fusegnet_train.py` and `xfusegnet_train.py` work in this mode.
 * Once the model parameters are set in the `Parameter` section, the user can train the model using the following commands - `python fusegnet_train.py` or `python xfusegnet_train.py`.
 * `fusegnet_train.py` and `xfusegnet_train.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.)
+
 **Mode: test (inference) only**
 * In this mode, only inference code is embedded in the .py file.
 * `fusegnet_test.py` and `xfusegnet_test.py` work in this mode.
