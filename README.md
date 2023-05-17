@@ -37,7 +37,7 @@ Our saved (trained) models can be downloaded from the following links-
 
 ![fusegnet](resources/Network.jpg)
 
-<br> <br> <br> <br>
+<br> <br> <br>
 
 <p align="center">
 <b>Proposed parallel scSE (P-scSE) module<b>
