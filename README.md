@@ -32,6 +32,14 @@ Our saved (trained) models can be downloaded from the following links-
 
 ## Directory setup
 
+```
+.
+|--fusegnet_all.py
+|--xfusegnet_all.py
+```
+
+
+
 ## Parameters setup
 `fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, and `xfusegnet-train.py` have a section called `Parameters` where the user can set the model parameters. The following are the model parameters used to train `FUSegNet` and `xFUSegNet`.  
 ```python
