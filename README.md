@@ -31,7 +31,7 @@ Our saved (trained) models can be downloaded from the following links-
 * `FUSegNet_feature_visualization.ipynb`: Demonstrates intermediate features.
 
 ## Network architecture
-<center>Centered text</center>
+<p style="text-align: center;">A piece of centered text</p>
 **Proposed FUSegNet overview:**
 ![fusegnet](resources/Network.jpg)
 <br> <br> <br> <br>
