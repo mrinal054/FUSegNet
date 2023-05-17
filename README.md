@@ -72,7 +72,8 @@ EARLY_STOP = True # if True, enables early stopping
 * In this mode, only inference code is embedded in the .py file.
 * `fusegnet_test.py` and `xfusegnet_test.py` work in this mode.
 * The user can test the model using the following commands - `python fusegnet_test.py` or `python xfusegnet_test.py`.
-* `fusegnet_train.py` and `xfusegnet_train.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.)
+* `fusegnet_train.py` and `xfusegnet_train.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.).
+* To test with our saved models, put the saved models in the `checkpoints` directory and then perform either one of the above two steps.
 
 
 ## Results
