@@ -58,14 +58,20 @@ EARLY_STOP = True # if True, enables early stopping
 ## How to use
 **Mode: end-to-end**
 * In this mode, training and inference codes are embedded in a single .py file. *
-* `fusegnet-all.py` and `xfusegnet-all.py` files are written in this mode. 
-* Once the model parameters are set in the `Parameter` section, the user can run (train, validation, and test)  using the following commands - `python fusegnet-all.py` or `python xfusegnet-all.py`.
-* `fusegnet-all.py` and `xfusegnet-all.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.)
+* `fusegnet_all.py` and `xfusegnet_all.py` files are written in this mode. 
+* Once the model parameters are set in the `Parameter` section, the user can run (train, validation, and test)  using the following commands - `python fusegnet_all.py` or `python xfusegnet_all.py`.
+* `fusegnet_all.py` and `xfusegnet_all.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.)
 
-Mode: train only
-
-Mode: test (inference) only
-
+**Mode: train only**
+* In this mode, only training code is embedded in the .py file.
+* `fusegnet_train.py` and `xfusegnet_train.py` work in this mode.
+* Once the model parameters are set in the `Parameter` section, the user can train the model using the following commands - `python fusegnet_train.py` or `python xfusegnet_train.py`.
+* `fusegnet_train.py` and `xfusegnet_train.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.)
+**Mode: test (inference) only**
+* In this mode, only inference code is embedded in the .py file.
+* `fusegnet_test.py` and `xfusegnet_test.py` work in this mode.
+* The user can test the model using the following commands - `python fusegnet_test.py` or `python xfusegnet_test.py`.
+* `fusegnet_train.py` and `xfusegnet_train.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.)
 
 
 ## Results
