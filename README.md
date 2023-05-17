@@ -1,10 +1,3 @@
-Seeking for a 50% TA in the upcoming Fall semester
-Dear Professor,
-I hope you are doing well.
-I have completed all my coursework and the qualifying exam. I have also completed my Proposal Hearing this semester and applied for the dissertator status starting in the Fall semester. 
-Under the circumstances, will you please consider me for a 50% TA in the Fall semester?
-Thank you. Have a nice day!
- 
 # FUSegNet
 
 ## Description will be added soon
