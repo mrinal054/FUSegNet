@@ -127,5 +127,6 @@ EARLY_STOP = True # if True, enables early stopping
 
 
 ## Reference
-[1] Pavel Iakubovskii, "Segmentation Models Pytorch", GitHub repository, GitHub, 2019. URL: https://github.com/qubvel/segmentation_models.pytorch
-[2] C. Wang et al., “Fully automatic wound segmentation with deep convolutional neural networks,” Sci. Rep., vol. 10, no. 1, 2020.
+[1] Pavel Iakubovskii, "Segmentation Models Pytorch", GitHub repository, GitHub, 2019. URL: https://github.com/qubvel/segmentation_models.pytorch <br>
+[2] C. Wang et al., “Fully automatic wound segmentation with deep convolutional neural networks,” Sci. Rep., vol. 10, no. 1, 2020. <br>
+[3] MICCAI FUSeg Challenge 2021. URL: https://fusc.grand-challenge.org/
