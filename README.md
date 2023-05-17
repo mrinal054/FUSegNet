@@ -40,6 +40,18 @@ Our saved (trained) models can be downloaded from the following links-
 |-- xfusegnet_all.py
 |-- xfusegnet_train.py
 |-- xfusegnet_test.py
+|-- utils
+|-- dataset
+	|-- train
+		|-- images
+			|-- (training and validation images are kept here)
+		|-- labels 
+			|-- (training and validation labels are kept here)
+	|-- test
+		|-- images 
+			|-- (test images are kept here)
+		|-- labels 
+			|-- (test labels are kept here)
 |-- checkpoints
 	|-- (models will be stored here)
 |-- plots
