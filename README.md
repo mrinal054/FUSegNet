@@ -41,7 +41,7 @@ BATCH_SIZE = 2 # no. of batches
 IMAGE_SIZE = 224 # height and width
 n_classes = 1 # no. of classes excluding background
 ACTIVATION = 'sigmoid' # output activation. sigmoid for binary and softmax for multi-class segmentation
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu") # sets gpu if available
 LR = 0.0001 # learning rate
 EPOCHS = 200 # no. of epochs
 WEIGHT_DECAY = 1e-5 # for L2 penalty
@@ -51,11 +51,22 @@ SAVE_BEST_MODEL = True # if True, saves the best model only
 SAVE_LAST_MODEL = False # if True, saves the model after completing the training
 PERIOD = None # periodically save checkpoints
 RAW_PREDICTION = False # if true, then stores raw predictions (i.e. before applying threshold)
-PATIENCE = 30 # no. of epoches waited before early stopping
+PATIENCE = 30 # no. of epoches waits before early stopping
 EARLY_STOP = True # if True, enables early stopping
 ```
 
 ## How to use
+Mode: end-to-end
+* In this mode, training and inference codes are embedded in a single .py file. *
+* `fusegnet-all.py` and `xfusegnet-all.py` files are written in this mode. 
+* Once the model parameters are set in the `Parameter` section, the user can run (train, validation, and test)  using the following commands - `python fusegnet-all.py` or `python xfusegnet-all.py`.
+* `fusegnet-all.py` and `xfusegnet-all.py` can directly be run from any IDE (e.g. Spyder, PyCharm, Jupyter Notebook, etc.)
+
+Mode: train only
+
+Mode: test (inference) only
+
+
 
 ## Results
 
