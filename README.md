@@ -39,10 +39,10 @@ Our saved (trained) models can be downloaded from the following links-
   <img src="resources/Network.jpg" width="1000">
 </p>
 
-<br> <br>
+<br> 
 
 <p align="center">
-<b>Proposed parallel scSE (P-scSE) module<b>
+<b>Proposed Parallel scSE (P-scSE) module<b>
 </p>
 
 
@@ -50,7 +50,7 @@ Our saved (trained) models can be downloaded from the following links-
   <img src="resources/P-scSE.jpg" width="700">
 </p>
 	
-
+<br>
 
 ## Directory setup
 The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically. 
