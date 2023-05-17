@@ -32,11 +32,13 @@ Our saved (trained) models can be downloaded from the following links-
 
 ## Network architecture
 <p align="center">
-// Your content
+**Proposed FUSegNet overview**
 </p>
 
-**Proposed FUSegNet overview:**
+<div style="text-align: center;">
 ![fusegnet](resources/Network.jpg)
+</div>
+
 <br> <br> <br> <br>
 
 **Proposed parallel scSE (P-scSE) module:**
