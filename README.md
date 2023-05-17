@@ -34,8 +34,18 @@ Our saved (trained) models can be downloaded from the following links-
 
 ```
 .
-|--fusegnet_all.py
-|--xfusegnet_all.py
+|-- fusegnet_all.py
+|-- fusegnet_train.py
+|-- fusegnet_test.py
+|-- xfusegnet_all.py
+|-- xfusegnet_train.py
+|-- xfusegnet_test.py
+|-- checkpoints
+	|-- (models will be stored here)
+|-- plots
+	|-- (loss curves will be stored here)
+|-- predictions
+	|-- (model predictions will be store here)
 ```
 
 
