@@ -45,6 +45,8 @@ Our saved (trained) models can be downloaded from the following links-
 
 ![pscse](resources/P-scSE.jpg =250x250)
 
+<img src="resources/P-scSE.jpg" width="100" height="100">
+
 
 ## Directory setup
 The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically. 
