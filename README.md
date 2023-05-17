@@ -53,9 +53,10 @@ Our saved (trained) models can be downloaded from the following links-
 <br>
 
 <header>  <h2>Directory setup</h2> </header>
+ <h1 style="color: white; background-color: #af9cd9; padding: 2em 0; text-align: center">![](https://raw.githubusercontent.com/belltown/violetbug/master/doc/icon.png) VioletBug — Roku Debugger Graphical Interface</h1>
 
 
-**The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically. **
+The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically.
 ```
 .
 |-- fusegnet_all.py
