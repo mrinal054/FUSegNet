@@ -31,7 +31,7 @@ Our saved (trained) models can be downloaded from the following links-
 ## Network architecture
 
 ## Directory setup
-
+The directory structure is shown below. Note that if checkpoints, plots, and predictions folders are not created beforehand, they will be generated automatically. 
 ```
 .
 |-- fusegnet_all.py
