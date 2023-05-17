@@ -31,9 +31,10 @@ Our saved (trained) models can be downloaded from the following links-
 * `FUSegNet_feature_visualization.ipynb`: Demonstrates intermediate features.
 
 ## Network architecture
+<h3 style="text-align: center;">Proposed FUSegNet overview</h3>
 **Proposed FUSegNet overview:**
 ![fusegnet](resources/Network.jpg)
-<br> <br> <br> <br> <br>
+<br> <br> <br> <br>
 
 **Proposed parallel scSE (P-scSE) module:**
 ![pscse](resources/P-scSE.jpg)
