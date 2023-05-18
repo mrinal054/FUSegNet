@@ -46,7 +46,7 @@ class Conv2dReLU(nn.Sequential):
 
         super(Conv2dReLU, self).__init__(conv, bn, relu)
 
-# Original SCSSE module with addition type only
+# Original SCSE module with addition type only
 class SCSEModule(nn.Module):
     def __init__(self, in_channels, reduction=16):
         super().__init__()
