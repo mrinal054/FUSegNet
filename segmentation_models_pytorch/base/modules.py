@@ -106,7 +106,7 @@ class SCSEModule0(nn.Module):
         
         elif self.strategy == 'all-average':
             x1 = xc + xs # addition
-            x2 = torch.maximum(xc, xs) # multiplication
+            x2 = torch.maximum(xc, xs) # maxout
             x3 = self.if_concat(torch.cat([xc, xs], dim=1)) # concatenation
             x4 = xc * xs # multiplication
             
