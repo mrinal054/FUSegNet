@@ -128,6 +128,9 @@ Currently, our implementation supports the following SEs:
 * `multiplication`: cSE * sSE
 * `average`: mean(stack(cSE, sSE))
 * `average-all`: mean(stack(maxout, additive, concat, multiplication))
+
+The user needs to pass the attention type to `decoder_attention_type` in `fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, or `xfusegnet-train.py`. For instance,``` decoder_attention_type = 'pscse' ```
+
 ## Results
 * **Segmentation results on the Chronic Wound dataset**
 <p align="center"> <img src="resources/chronic_wound.jpg" width="600"> </p> <br> 
