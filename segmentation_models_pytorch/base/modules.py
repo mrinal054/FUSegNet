@@ -84,8 +84,8 @@ class SCSEModule0(nn.Module):
 
     def forward(self, x):
 
-        xc = x * self.cSE(x) # cse attention
-        xs = x * self.sSE(x) # sse attention
+        xc = x * self.cSE(x) # cSE attention
+        xs = x * self.sSE(x) # sSE attention
         
         if self.strategy == 'addition':
             x = xc + xs
