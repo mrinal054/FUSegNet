@@ -71,7 +71,7 @@ The directory structure is shown below. Note that if checkpoints, plots, and pre
 ```
 
 ## Parameters setup
-`fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, and `xfusegnet-train.py` have a section called `Parameters` where the user can set the model parameters. The following are the model parameters used to train `FUSegNet` and `xFUSegNet`.  
+`fusegnet_all.py`, `fusegnet_train.py`, `xfusegnet_all.py`, and `xfusegnet_train.py` have a section called `Parameters` where the user can set the model parameters. The following are the model parameters used to train `FUSegNet` and `xFUSegNet`.  
 ```python
 BASE_MODEL = 'FuSegNet' # give any name for the model
 ENCODER = 'efficientnet-b7' # encoder model 
@@ -129,7 +129,7 @@ Currently, our implementation supports the following SEs:
 * `average`: mean(stack(cSE, sSE))
 * `average-all`: mean(stack(maxout, additive, concat, multiplication))
 
-The user needs to pass the attention type to `decoder_attention_type` in `fusegnet-all.py`, `fusegnet-train.py`, `xfusegnet-all.py`, or `xfusegnet-train.py`. For instance,``` decoder_attention_type = 'pscse' ```
+The user needs to pass the attention type to `decoder_attention_type` in `fusegnet_all.py`, `fusegnet_train.py`, `xfusegnet_all.py`, or `xfusegnet_train.py`. For instance,``` decoder_attention_type = 'pscse' ```
 
 ## Results
 * **Segmentation results on the Chronic Wound dataset**
