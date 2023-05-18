@@ -118,6 +118,16 @@ EARLY_STOP = True # if True, enables early stopping
 * In this mode, intermediate feature maps are visualized. 
 * `FUSegNet_feature_visualization.ipynb` demonstrates the output feature maps of the parallel scSE (P-scSE) modules and each decoder stage.
 
+## Supported squeeze-and-excitation (SE) modules
+Currently, our implementation supports the following SEs:
+* `pscse`: Parallel spatial and channel squeeze-and-excitation
+* `scse`: Spatial and channel squeeze-and-excitation
+* `maxout`: max(cSE, sSE)
+* `additive`: cSE + sSE
+* `concat`: concatenate(cSE, sSE)
+* `multiplication`: cSE * sSE
+* `average`: mean(stack(cSE, sSE))
+* `average-all`: mean(stack(maxout, additive, concat, multiplication))
 ## Results
 * **Segmentation results on the Chronic Wound dataset**
 <p align="center"> <img src="resources/chronic_wound.jpg" width="600"> </p> <br> 
