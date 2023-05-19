@@ -135,7 +135,7 @@ The user needs to pass the attention type to `decoder_attention_type` in `fusegn
 * **Segmentation results on the Chronic Wound dataset**
 <p align="center"> <img src="resources/chronic_wound.jpg" width="600"> </p> <br> 
 
-* **Top five performers of the** [MICCAI 2021 FUSeg Challenge](https://fusc.grand-challenge.org/leaderboard/)
+* **Top five performers of the** [MICCAI FUSeg Challenge 2021](https://fusc.grand-challenge.org/leaderboard/)
 <p align="center"> <img src="resources/fuseg_challenge.jpg" width="500"> </p> <br> 
 
 
