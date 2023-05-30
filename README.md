@@ -32,6 +32,10 @@ Our saved (trained) models can be downloaded from the following links-
 * `xfusegnet_test.py`: It is to perform inference using the xFUSegNet model.
 * `FUSegNet_feature_visualization.ipynb`: Demonstrates intermediate features.
 
+## Packages installation
+```pip install -r requirements.txt```
+Note: It is better to install `torch` and its associated packages manually as these are very sensitive to hardware and the OS. 
+
 ## Network architecture
 * **Proposed FUSegNet overview**
 <p align="center"> <img src="resources/Network.jpg" width="900"> </p> <br> 
