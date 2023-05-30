@@ -33,8 +33,8 @@ Our saved (trained) models can be downloaded from the following links-
 * `FUSegNet_feature_visualization.ipynb`: Demonstrates intermediate features.
 
 ## Packages installation
-```pip install -r requirements.txt``` <br>
-Note: It is better to install `torch` and its associated packages manually as these are very sensitive to hardware and the OS. 
+```pip install -r requirements.txt``` <br><br>
+**Note:** It is better to install `torch` and its associated packages manually as these are very sensitive to hardware and the OS. 
 The `torch` packages mentioned in the `requirements.txt` file are used for a 64-bit Ubuntu PC with an 8-core 3.4 GHz CPU and a single NVIDIA RTX 2080Ti GPU with a CUDA compilation version of 10.1. 
 
 ## Network architecture
